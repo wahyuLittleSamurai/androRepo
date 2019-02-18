@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">piDrone</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_map">Map</string>
+    <string name="title_activity_mapping">mapping</string>
+    <string name="title_activity_firebase">firebase</string>
+</resources>

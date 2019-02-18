@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="76dp"
+        tools:ignore="MissingConstraints">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="31dp"
+        tools:ignore="MissingConstraints">
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:text="Username"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="App"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignBottom="@+id/textView5"
+        android:text="Role"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="440dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_toLeftOf="@+id/editText1"
+        android:text="LoginRole"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="302dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_alignLeft="@+id/textView5"
+        android:text="method"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="264dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/textView8"
+        android:text="LoginStatus"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="229dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="Status"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="398dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignBottom="@+id/textView8"
+        android:text="Choose"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="370dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView6"
+        android:text="LoginPost"
+        android:onClick="loginPost"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="144dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignBottom="@+id/button2"
+        android:onClick="login"
+        android:text="LoginGet"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="144dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:text="Password"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="89dp"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

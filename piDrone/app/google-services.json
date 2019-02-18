@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "947904786813",
+    "firebase_url": "https://droneproject-6d11f.firebaseio.com",
+    "project_id": "droneproject-6d11f",
+    "storage_bucket": "droneproject-6d11f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947904786813:android:cbe686381e466850",
+        "android_client_info": {
+          "package_name": "com.example.pidrone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947904786813-7b2cku0qgjtrqu74tvitg2a8p8jkg03t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU-dYTooQH8k9SNenykx6uHJVQuL7778g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
